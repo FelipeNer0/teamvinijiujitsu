@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@100;300;700&display=swap');
+
+*{margin: 0; padding: 0;}
+
+body{
+	background-color: #f0f0f0;
+}
+
+
+header,img{
+	width: 100%;
+	height: 380px;
+}
+
+nav{
+	background-color: #2196F3;
+	padding: 10px;
+	text-align: center;
+}
+
+a{
+	font: 1.5rem 'Poppins', sans-serif;
+	font-weight: 700;	
+	text-decoration: none;
+}
+
+.menu, .menu:visited{
+	color: #fff;
+	margin-right: 40px;
+}
+
+.menu:hover, .menu:active{
+	color: #00BCD4;
+}
+
+article{
+	padding: 60px;
+	box-sizing: border-box;
+}
+
+h1{
+	color: #303F9F;
+	text-align: center;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 3.5rem;
+	margin-bottom: 50px;
+}
+
+p{
+	color: #757575;
+	text-align: justify;
+	font: 1.5rem 'Poppins', sans-serif;
+	font-weight: 300;
+	line-height: 2.7rem;
+}
+
+h2{
+	color: #303F9F;	
+	font-family: 'Kaushan Script', cursive;
+	font-size: 2.5rem;
+	margin-bottom: 20px;
+
+}
+
+#pag-beneficios{
+	background-color: #2196F3;
+	padding: 60px;
+}
+
+#pag-beneficios h2,#pag-beneficios p{
+	color: #fff;
+	margin: 15px;
+}
+
+ul{
+	list-style-position: inside;
+	list-style-type: circle;
+	margin: 30px 0 0 60px;
+}
+
+li{
+	color: #fff;
+	font: 1.5rem 'Poppins', sans-serif;
+}
+
+#pag-fundamentos{
+	background-color: #ddd;
+	padding: 60px;
+}
+
+#container{
+	display: flex;
+	margin-top: 20px;
+}
+
+.card{
+	background-color: #fff;
+	margin: 10px;
+	width: 25%;
+	border-radius: 8px;
+	box-shadow: 0px 4px 8px #9E9E9E;
+	transition: 0.5s;	
+}
+
+.card:hover{
+	box-shadow: 0px 8px 16px #9E9E9E;
+}
+
+h3{
+	color: #2196F3;
+	text-align: center;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+}
+
+.card-content{
+	padding: 10px;
+}
+
+.card-content p{
+	text-align: center;
+	font-size: 1rem;
+	line-height: 20px;
+} 
+
+#pag-treinos{
+	padding: 60px;
+}
+
+#pag-treinos p{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#container-treinos{
+	display: flex;
+}
+
+
+.img-contatos{
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+}
+
+.img-contatos2{
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+	margin-top: -25px;
+}
+
+video{
+	width: 300px;
+}
+
+.coluna-treinos{
+	padding: 20px;
+}
+
+.container-imagens{
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container-imagens p{
+	color: #000;
+}
+
+
+footer{
+	background-color: #212121;
+	padding: 20px;
+}
+
+footer p{
+	text-align: center;
+	color: #fff;
+}
+
+footer a{
+	color: #fff;
+}
+
+footer a:hover{
+	color: #00BCD4;
+}
+
+/*página de agendamentos*/
+
+#pag-agendamentos{
+
+}
+
+#pag-agendamentos p{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+form{
+	width: 400px;
+	margin: 0 auto;
+}
+
+input, select, textarea{
+	width: 100%;
+	height: 30px;
+	margin-bottom: 10px;
+	padding-left: 6px;
+	box-sizing: border-box;
+	border: 1px solid #C4C4C4;	
+	color: #777;
+}
+
+label, fieldset, input, textarea{
+	font: 1rem 'Poppins', sans-serif;
+}
+
+fieldset{
+	border: 1px solid #C4C4C4;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+#data-hora-num{
+	display: flex;
+}
+
+input[type="radio"], input[type="checkbox"]{
+	width: 15px;
+	height: 15px;
+	margin-left: 50px;
+}
+
+textarea{
+	height: 80px;
+}
+
+#botoes-form{
+	display: flex;
+}
+
+input[type="submit"], input[type="reset"]{
+	margin: 20px;
+	background-color: #8BC34A;
+	color: #fff;
+	border: 0;
+	border-radius: 5px;
+}
+
+input[type="reset"]{
+	background-color: #F47E7E;
+}
